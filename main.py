@@ -53,6 +53,6 @@ while True:
                 w.addch(food[0], food[1], curses.ACS.PI)
                 else:
                     tail = snake.pop()
-                    w.addch(tail[0], fail[1], ' ')
+                    w.addch(tail[0], tail[1], ' ')
 
                     w.addch(snake[0][0], snake[0][1], curses.ACS_CKBOARD)
